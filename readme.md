@@ -13,5 +13,5 @@ i am just making this simple-starter for my tasks that's it.
 
 my clone:
 ```
-git clone https://github.com/meysey/simple-starter.git
+git clone https://github.com/meysey/simple-starter.; rm -rf trunk .gitignore readme.md .git
 ```
