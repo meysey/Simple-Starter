@@ -10,3 +10,7 @@ git clone https://github.com/agragregra/Simple-Starter .; rm -rf trunk .gitignor
 ![alt text](https://raw.githubusercontent.com/agragregra/Simple-Starter/main/images/preview.png)
 
 i am just making this simple-starter for my tasks that's it.
+my clone:
+```
+git clone https://github.com/meysey/simple-starter.git
+```
