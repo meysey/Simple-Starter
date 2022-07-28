@@ -4,7 +4,7 @@ his [youtube channel](https://www.youtube.com/c/WebDesignMaster) :heart:
 
 :star: Original clone:
 ```
-git clone https://github.com/agragregra/Simple-Starter .; rm -rf trunk .gitignore readme.md .git
+git clone https://github.com/agragregra/Simple-Starter .; 
 ```
 
 ![alt text](https://raw.githubusercontent.com/agragregra/Simple-Starter/main/images/preview.png)
