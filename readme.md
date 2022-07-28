@@ -1,6 +1,7 @@
 # Hello everyone :raised_hand:
 #### _it's isn't my simple-starter. I took it from this cool [guy](https://github.com/agragregra)  thank to him a lot!_
 his [youtube channel](https://www.youtube.com/c/WebDesignMaster) :heart:
+
 Original clone:
 ```
 git clone https://github.com/agragregra/Simple-Starter .; rm -rf trunk .gitignore readme.md .git
