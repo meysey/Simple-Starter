@@ -1,0 +1,19 @@
+.header__inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav__list-item a{
+	color: orange;
+	text-decoration: none;
+}
+
+.nav__list ul{
+	margin-right: 40px;
+}
+
+.nav__list ul:last-child{
+	margin-right: 0;
+}
+
