@@ -1,0 +1,114 @@
+/* Слайдер */
+.slick-slider{}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{}
+/* Ограничивающая оболочка */
+.slick-list {
+	overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+	display: flex;
+	align-items: flex-start; /* для adaptiveHeight */
+}
+/* Слайд */
+.slick-slide{}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{}
+/* Слайд основной */
+.slick-slide.slick-current{}
+/* Слайд по центру */
+.slick-slide.slick-center{}
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+/* Стрелка */
+.slick-arrow{}
+/* Стрелка влево */
+.slick-arrow.slick-prev{}
+/* Стрелка вправо */
+.slick-arrow.slick-next{}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+/* Точки (булиты) */
+.slick-dots{}
+.slick-dots li{}
+/* Активная точка */
+.slick-dots li.slick-active{}
+/* Элемент точки */
+.slick-dots li button{}
+
+.slider{
+	min-width: 0;
+	position: relative;
+	padding: 0 60px;
+}
+
+.slider .slick-slider{
+	display: block;
+}
+.slider .slick-arrow{
+	position: absolute;
+	top: 50%;
+	margin: -30px 0px 0px 0px;
+	z-index: 10px;
+	font-size: 0;
+	width: 30px;
+	height: 60px;
+	border: 0;
+}
+.slider .slick-arrow.slick-prev{ 
+	left: 0;
+	background: url('./img/sl-arrow_l.svg') 0 0 / 100% no-repeat;
+	z-index: 1;
+}
+.slider .slick-arrow.slick-next{
+	background: url('./img/sl-arrow_r.svg') 0 0 / 100% no-repeat;
+	right: 0;
+}
+.slider__item{
+	transition: all .3s ease 0s;
+	min-width: 0;
+	/* height: 1000px; */
+	/* text-align: center; */
+	/* opacity: 0.4; */
+	/* это для centerMode */
+}
+
+/* .slider__item.slick-center{
+	opacity: 1;
+	this for centerMode
+} */
+
+.slider .slick-dots{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.slider .slick-dots li{
+	list-style-type: none;
+}
+/* Активная точка */
+.slider .slick-dots li.slick-active button{
+	background-color: red;
+}
+/* Активная точка v.1 */
+.slider .slick-dots li.slick-active{
+
+}
+
+.slider .slick-arrow.slick-disabled{
+	opacity: 0.4;
+}
+
+/* Элемент точки */
+.slider .slick-dots li button{
+	font-size: 0;
+	width: 10px;
+	height: 10px;
+	background-color: #fff;
+	border: 0;
+	margin-right: 10px;
+	border-radius: 50%;
+}
