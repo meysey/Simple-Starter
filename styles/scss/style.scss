@@ -1,1 +1,26 @@
+/* BOOTSTRAP SETTINGS SECTION 
 
+/* gutter 20px (10px + 10px). Comment this code for default gutter start at 1.5rem (24px) wide. */
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl { --bs-gutter-x: .625rem; }
+.row, .row > * { --bs-gutter-x: 1.25rem; }
+
+/* USER VARIABLES SECTION */
+
+/* FONTS LOAD SECTION */
+@font-face { src: url("../fonts/roboto-regular-webfont.woff2") format("woff2"); 
+	font-family: "roboto-st"; font-weight: 400; font-style: normal; }
+
+@font-face { src: url("../fonts/roboto-italic-webfont.woff2") format("woff2"); 
+	font-family: "roboto-st"; font-weight: 400; font-style: italic; }
+
+@font-face { src: url("../fonts/roboto-bold-webfont.woff2") format("woff2");
+	 font-family: "roboto-st"; font-weight: 700; font-style: normal; }
+
+@font-face { src: url("../fonts/roboto-bolditalic-webfont.woff2") format("woff2"); font-family:
+	 "roboto-st"; font-weight: 700; font-style: italic; }
+
+/* GENERAL CSS SETTINGS */
+body {
+	background-color: orange;
+}
+/* USER STYLES */
