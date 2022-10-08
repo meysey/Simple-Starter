@@ -32,8 +32,11 @@ body {
 .nav__list-item{
 	display: inline-block;
 	margin-right: 30px;
-	color: #fff;
 	text-transform: uppercase;
+}
+
+.nav__list-item a{
+	color: #fff;
 }
 
 .header__button{
@@ -41,3 +44,4 @@ body {
 	border-radius: 7px;
 	text-transform: uppercase;
 }
+
