@@ -11,7 +11,7 @@ git clone https://github.com/agragregra/Simple-Starter .; rm -rf trunk .gitignor
 
 i am just making this simple-starter for my tasks that's it.
 
-my clone:
+my clone
 ```
 git clone https://github.com/meysey/simple-starter.; rm -rf trunk .gitignore readme.md .git
 ```
