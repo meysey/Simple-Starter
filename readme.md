@@ -1,6 +1,6 @@
 # Hello everyone :raised_hand:
 #### _it's isn't my simple-starter. I took it from this cool [guy](https://github.com/agragregra)  thank to him a lot!_
-his [youtube channel](https://www.youtube.com/c/WebDesignMaster) :heart: :blush:
+his [youtube channel](https://www.youtube.com/c/WebDesignMaster) :blush:
  
 :star: Original clone:
 ```
